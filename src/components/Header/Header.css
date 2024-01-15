@@ -2,18 +2,13 @@
 
 .Header {
   display: flex;
+  flex-direction: column;
   background-color: #020a15;
   align-items: center;
 }
 
-.Logo {
-  justify-content: start;
-  align-items: center;
-}
-
 .Logo img {
-  width: 12rem;
-  margin: 0.8rem;
+  width: 14rem;
   padding: 1rem;
   border-radius: 14rem;
 }
@@ -24,6 +19,7 @@
   justify-content: center;
   font-size: 2rem;
   color: white;
+  margin: 0.5rem;
 }
 
 .Tittle h1 {

@@ -4,17 +4,35 @@
   justify-content: center;
   align-items: center;
   margin: 1rem;
+  width: 20rem;
+  height: 44rem;
+}
+
+.cardmedia-container {
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .card-img {
+  max-width: 100%; /* Establece el ancho al 100% del contenedor */
+  height: 25rem; /* Permite que la altura se ajuste automáticamente según el ancho */
+  max-height: 100%; /* O cualquier otro valor deseado */
   padding: 1rem;
+  width: 25rem;
 }
+
 .titleGame {
   text-align: center;
   text-decoration-line: underline;
 }
 
+.descripcionGame {
+  height: 10rem;
+}
+
 Button {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
