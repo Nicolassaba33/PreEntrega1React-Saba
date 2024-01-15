@@ -1,0 +1,20 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.card-img {
+  padding: 1rem;
+}
+.titleGame {
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+Button {
+  display: flex;
+  justify-content: center;
+}
